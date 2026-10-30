@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{ int i,j;
+for(i=0;i<=100;i++)
+if(i%2==0)
+cout<<"even numbers:"<<i<<"\n";
+for(j=0;j<=100;j++)
+if(j%2!=0)
+cout<<j<<"  ";
+}
